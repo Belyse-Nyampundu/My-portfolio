@@ -1,0 +1,126 @@
+.skills-page {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5%;
+}
+
+.frontend-skills {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 55px;
+    border: solid 1px;
+    border-radius: 25px;
+    border-color: aquamarine;
+}
+
+.frontend-skills:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    border: none;
+}
+
+.frontend-skills h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.frontend-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.frontend-skills li {
+    padding: 5px 0;
+}
+
+.frontend-skills li::before {
+    content: "•";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.skills-list li {
+    padding: 5px;
+}
+
+.skills-heading {
+    font-size: 37px;
+    color: aquamarine;
+    font-weight: bold;
+    padding-left: 5%;
+    margin-bottom: 5px;
+    grid-column: 1 / -1; /* Span across all columns */
+}
+/* -----------------------------BACKEND SKILLS------------------------------------- */
+
+.Backend-skills {
+    font-family: Arial, sans-serif;
+}
+
+.Backend-skills h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Backend-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Backend-skills li {
+    padding: 5px 0;
+}
+
+.Backend-skills li::before {
+    content: "•";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/* -----------------------RESEARCH SKILLS---------------------------- */
+
+.Research-skills {
+    font-family: Arial, sans-serif;
+}
+
+.Research-skills h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Research-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Research-skills li {
+    padding: 5px 0;
+}
+
+.Research-skills li::before {
+    content: "•";
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+
+
+.Backend-skills{
+    border: solid 1px;
+}
+.Research-skills{
+    border: solid 1px;
+}

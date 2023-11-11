@@ -1,0 +1,22 @@
+.home_page{
+    margin: 10%;
+}
+.home_page h1{
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+button{
+    width:8%;
+    padding: 10px;
+    border-radius: 10px;
+    /* border-color: green; */
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+    background-color:#689C97 ;
+    border: none;
+    color: white;
+}
