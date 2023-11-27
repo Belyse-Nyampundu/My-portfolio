@@ -1,0 +1,21 @@
+/* style.css */
+
+.footer {
+    background-color: #333; /* You can replace #333 with the color of your choice */
+    color: #fff; /* Set text color to white or a contrasting color */
+    padding: 20px; /* Add padding for better spacing */
+    margin-top: 40px;
+  }
+  
+  .footer h1 {
+    margin: 0; /* Remove margin for the h1 element inside the footer */
+  }
+  
+  .footer p {
+    margin: 10px 0; /* Add margin to the paragraphs inside the footer */
+  }
+  
+  .footer span {
+    margin-right: 15px; /* Add margin to the spans inside the footer */
+  }
+  

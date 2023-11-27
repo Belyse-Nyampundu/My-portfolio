@@ -6,6 +6,7 @@ import Home from './Components/home';
 import About from './Components/abouMe';
 import Skills from './Components/skills';
 import Project from './Components/project';
+import Footer from './Components/footer';
 // import { BrowserRouter, Router, Routes,Route } from 'react-router-dom';
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
     <About/>
     <Skills/>
     <Project/>
+    <Footer/>
+    
     
   
   
